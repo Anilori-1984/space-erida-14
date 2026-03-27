@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "pda-shaftminer recolored from original pda-miner by Rouden",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+	  {
+      "name": "iconR"
+    },
+	  {
+      "name": "iconB"
+    }
+  ]
+}
