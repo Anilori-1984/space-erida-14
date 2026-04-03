@@ -1,1 +1,1 @@
-shop-listing-deathrattle-implant-lavaland = Лавалэндский "предсмертный хрип"
+shop-listing-deathrattle-implant-lavaland = имплантер "предсмертный хрип Лавалэнд"

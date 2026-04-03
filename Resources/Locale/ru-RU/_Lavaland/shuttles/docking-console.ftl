@@ -1,8 +1,8 @@
-docking-console-no-shuttle = Шаттл не обноружен.
+docking-console-no-shuttle = Шаттл не обнаружен.
 docking-console-ftl = FTL
 docking-console-call = Вызвать шаттл
 
-mining-console-window-title = Консоль управления шахтерским шатлом
+mining-console-window-title = Консоль управления шахтерским шаттлом
 
 shuttle-destination-lavaland = Лавалэнд
 shuttle-destination-glacier-surface = Glacier Surface

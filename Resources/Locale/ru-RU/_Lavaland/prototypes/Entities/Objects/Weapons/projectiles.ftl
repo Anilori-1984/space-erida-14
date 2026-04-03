@@ -1,4 +1,4 @@
 ent-RapidBulletKinetic = быстрый кинетический заряд
-    .desc = Не настолько сильный, но вам всё равно не захочется подставляться под это.
+    .desc = { ent-BulletKinetic.desc }
 ent-WeakBulletKinetic = слабый кинетический заряд
-    .desc = Не настолько сильный, но вам всё равно не захочется подставляться под это.
+    .desc = { ent-BulletKinetic.desc }

@@ -1,4 +1,4 @@
-stack-artifact-fragment-ore = фрагмент артефакта
+stack-artifact-fragment-ore = { stack-artifact-fragment }
 
 stack-unprocessed-gold-ore = { stack-gold-ore }
 stack-unprocessed-diamond-ore = { stack-rough-diamond }

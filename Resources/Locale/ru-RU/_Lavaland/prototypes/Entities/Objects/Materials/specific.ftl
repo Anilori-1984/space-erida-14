@@ -20,7 +20,7 @@ ent-MaterialWatcherIceWing5 = { ent-MaterialWatcherIceWing }
     .desc = { ent-MaterialWatcherIceWing.desc }
 
 ent-MaterialLegionSkull = череп легиона
-    .desc = Серый деформированный череп давно исчезнувшего гуманоида. На кажется, что он смотрит прямо в душу.
+    .desc = Серый деформированный череп давно исчезнувшего гуманоида. Кажется, что он смотрит прямо в душу.
 ent-MaterialLegionSkull1 = { ent-MaterialLegionSkull }
     .desc = { ent-MaterialLegionSkull.desc }
 ent-MaterialLegionSkull5 = { ent-MaterialLegionSkull }
