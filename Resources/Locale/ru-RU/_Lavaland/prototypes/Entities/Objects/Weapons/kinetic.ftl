@@ -1,5 +1,15 @@
+ent-WeaponCrusherHalberd = кинетическая алебарда
+    .desc = Универсальное оружие совмещающее силу крушителя и дальность глефы.
+ent-WeaponCrusherHalberdFilledRandom = кинетическая алебарда
+    .desc = Универсальное оружие совмещающее силу крушителя и дальность глефы.
+ent-WeaponCrusherGlaiveFilledRandom = { ent-WeaponCrusherGlaive }
+    .desc = { ent-WeaponCrusherGlaive.desc }
+ent-WeaponCrusherFilledRandom = { ent-BaseWeaponCrusher }
+    .desc = { ent-BaseWeaponCrusher.desc }
 ent-WeaponCrusherHammer = кинетический молот
     .desc = Мощное двуручное оружие, которое наносит больше урона чем обычный крушитель, а также отбрасывает цели при атаке.
+ent-WeaponCrusherHammerFilledRandom = { ent-WeaponCrusherHammer }
+    .desc = { ent-WeaponCrusherHammer.desc }
 ent-LavalandWeaponKineticClaws = кинетические когти
     .desc = Выпустите своего внутреннего тигра при помощи этой небольшой одноручной перчатки. Наносит много урона в спину по помеченым целям.
 ent-LavalandWeaponKineticMachete = кинетическое мачете
