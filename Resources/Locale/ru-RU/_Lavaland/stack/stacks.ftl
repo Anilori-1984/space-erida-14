@@ -1,15 +1,15 @@
 stack-artifact-fragment-ore = фрагмент артефакта
 
-stack-unprocessed-gold-ore = руда золота
-stack-unprocessed-diamond-ore = необработанные алмазы
-stack-unprocessed-steel-ore = руда железа
-stack-unprocessed-plasma-ore = руда плазмы
-stack-unprocessed-silver-ore = руда серебра
-stack-unprocessed-quartz-ore = руда кварца
-stack-unprocessed-uranium-ore = руда урана
-stack-unprocessed-bananium-ore = руда бананиума
-stack-unprocessed-coal = уголь
-stack-unprocessed-artifact-fragment-ore = фрагмент артефакта
+stack-unprocessed-gold-ore = { stack-gold-ore }
+stack-unprocessed-diamond-ore = { stack-rough-diamond }
+stack-unprocessed-steel-ore = { stack-iron-ore }
+stack-unprocessed-plasma-ore = { stack-plasma-ore }
+stack-unprocessed-silver-ore = { stack-silver-ore }
+stack-unprocessed-quartz-ore = { stack-space-quartz }
+stack-unprocessed-uranium-ore = { stack-uranium-ore }
+stack-unprocessed-bananium-ore = { stack-bananium-ore }
+stack-unprocessed-coal = { stack-coal }
+stack-unprocessed-artifact-fragment-ore = { stack-artifact-fragment }
 
 stack-watcher-wing = крыло наблюдателя
 stack-magma-wing = крыло магматического наблюдателя
