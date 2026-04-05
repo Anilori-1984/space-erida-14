@@ -23,15 +23,9 @@ namespace Content.Erida.Server.MaterialEnergy
 
         private void OnInteract(EntityUid uid, MaterialEnergyComponent component, InteractUsingEvent args)
         {
-            if (component.MaterialWhiteList == null)
-                return;
-
-            _entityManager.TryGetComponent<PhysicalCompositionComponent>(args.Used, out var composition);
-            if (composition == null)
-                return;
-
-            _entityManager.TryGetComponent<StackComponent>(args.Used, out var materialStack);
-            if (materialStack == null)
+            if (component.MaterialWhiteList == null ||
+            !_entityManager.TryGetComponent<PhysicalCompositionComponent>(args.Used, out var composition) ||
+            !_entityManager.TryGetComponent<StackComponent>(args.Used, out var materialStack))
                 return;
 
             foreach (var fueltype in component.MaterialWhiteList)
