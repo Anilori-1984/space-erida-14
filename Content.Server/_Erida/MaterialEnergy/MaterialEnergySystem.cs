@@ -23,9 +23,9 @@ namespace Content.Erida.Server.MaterialEnergy
 
         private void OnInteract(EntityUid uid, MaterialEnergyComponent component, InteractUsingEvent args)
         {
-            if (component.MaterialWhiteList == null ||
-            !_entityManager.TryGetComponent<PhysicalCompositionComponent>(args.Used, out var composition) ||
-            !_entityManager.TryGetComponent<StackComponent>(args.Used, out var materialStack))
+            if (component.MaterialWhiteList == null
+            || !TryComp<PhysicalCompositionComponent>(args.Used, out var composition)
+            || !TryComp<StackComponent>(args.Used, out var materialStack))
                 return;
 
             foreach (var fueltype in component.MaterialWhiteList)
@@ -51,7 +51,7 @@ namespace Content.Erida.Server.MaterialEnergy
             int sheetsInStack)
         {
 
-            if (!_entityManager.TryGetComponent<BatteryComponent>(cutter, out var battery))
+            if (!TryComp<BatteryComponent>(cutter, out var battery))
                 return;
 
             var currentCharge = _batterySystem.GetCharge(cutter);
