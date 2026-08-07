@@ -506,3 +506,8 @@
     sound:
       path: /Audio/_FarHorizons/Machines/reactor_alarm_1.ogg
 #endregion
+
+- type: entity
+  id: NuclearReactorSmallEmpty
+  parent: [BaseNuclearReactorSmall, NuclearReactorCrew, ReactorPrefabEmpty]
+  suffix: "Empty"

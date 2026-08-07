@@ -70,3 +70,6 @@ ent-ReactorGasPipe = { "" }
     .desc = { "" }
 ent-ReactorAlarmEntity = { "" }
     .desc = { "" }
+ent-NuclearReactorSmallEmpty = малый ядерный реактор
+    .desc = { ent-BaseNuclearReactor.desc }
+    .suffix = Пустой
