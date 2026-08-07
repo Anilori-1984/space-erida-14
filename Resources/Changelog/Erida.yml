@@ -1241,3 +1241,16 @@ Entries:
   url: https://github.com/dead-space-server/space-erida-14/pull/431
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: Minor tasks
+- author: Tiwulovoe
+  changes:
+    - type: Add
+      message: >-
+        Теперь в карго можно купить не только большой, но и малый ядерный
+        реактор. 
+    - type: Fix
+      message: Газовые турбины работают корректно.
+  id: 104
+  time: '2026-08-07T00:16:54.0000000+00:00'
+  url: https://github.com/dead-space-server/space-erida-14/pull/433
+  avatar_url: https://avatars.githubusercontent.com/u/250869396?v=4
+  title: NRCF
